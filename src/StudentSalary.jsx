@@ -59,7 +59,7 @@ const StudentSalary = () => {
         <div
           className={
             bgColor
-              ? "flex border border-gray-300 p-2 rounded"
+              ? "flex border border-gray-300 bg-white p-2 rounded"
               : "flex border p-2 rounded bg-gray-600"
           }
         >
@@ -123,7 +123,7 @@ const StudentSalary = () => {
       <div
         className={
           bgColor
-            ? "pt-5 border border-gray-300 text-black max-w-[600px] flex flex-col justify-center items-center rounded shadow-lg"
+            ? "pt-5 border border-gray-300 bg-white text-black max-w-[600px] flex flex-col justify-center items-center rounded shadow-lg"
             : "pt-5 border border-black text-white bg-gray-700 max-w-[600px] flex flex-col justify-center items-center rounded shadow-lg"
         }
       >
